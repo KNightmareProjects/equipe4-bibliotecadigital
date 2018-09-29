@@ -25,6 +25,7 @@
 							<h1>Hackateca</h1>
 							<p>Aqui você encontrará uma grande variedade de assuntos.</p>
 						</header>
+						<a href='?main'><button>Home</button></a> <a href='?options'><button>Options</button></a>
 					<!--	<a href="#main" class="more">Learn More</a>  -->
 					</div>
 				</section>
