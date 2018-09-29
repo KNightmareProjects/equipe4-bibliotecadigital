@@ -1,9 +1,14 @@
-<title>Options - HACKATECA</title>
+<title>Options - Hackateca</title>
 <form method="POST" action="?options">
 <select id="music" required name="music">
     <option value="0" selected>No Music</option>
     <option value="1">Together Again</option>
     <option value="2">Be With You</option>
+    <option value="3">Dog Days</option>
+    <option value="4">On  On</option>
+    <option value="5">Fight Like The Devil</option>
+    <option value="6">Alive And Kicking</option>
+    <option value="7">Adrenaline </option>
 </select>
 <!--
 <select id="theme" required name="theme">
