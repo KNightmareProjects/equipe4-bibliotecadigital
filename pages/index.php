@@ -3,7 +3,7 @@ function createdivbox($link){
 if (file_exists("files/".$link.".php")) {
 	include("files/".$link.".php");
 echo 	"<div class='box'>
-		<a href='files/$link.png' ><img src='files/$link.png' height='200px' width='122px' alt='$titulo'/></a>
+		<br><a href='files/$link.png' ><img src='files/$link.png' height='200px' width='122px' alt='$titulo'/></a>
 		<div class='inner'>
 		<h3>$titulo</h3>
 		<p class='p2'>$descriptionSmall</p>
