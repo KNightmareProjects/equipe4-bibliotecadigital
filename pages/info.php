@@ -2,7 +2,7 @@
 if($_GET["info"] != null){
 	if (file_exists("files/".$_GET["info"].".php")) {
 	include_once("files/".$_GET["info"].".php");
-	echo "<title>$titulo - Hackateca</title>";
+	echo "<title>$titulo - Biblioteca Digital</title>";
 	echo "<h3>$titulo</h3>";
 	if(file_exists("files/".$_GET["info"].".png")){echo"<img src='files/".$_GET['info'].".png' height='280px' width='200px'>";};
 	echo "<p>Autor: $autor</p>";

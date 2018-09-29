@@ -1,4 +1,4 @@
-<title>Options - Hackateca</title>
+<title>Options - HACKATECA</title>
 <form method="POST" action="?options">
 <select id="music" required name="music">
     <option value="0" selected>No Music</option>
