@@ -4,6 +4,11 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
+<audio id="musica" hidden loop="true" Autoplay="true" src="0.mp3"></audio>
+    <?php
+    if($_COOKIE["hackatecaMusic"] == null) setcookie("hackatecaMusic","0",time()+999999999);
+    if($_COOKIE["hackatecaMusic"] != "0" && $_COOKIE["hackatecaMusic"] != null) echo("<script>document.getElementById('musica').src = '".$_COOKIE['hackatecaMusic'].".mp3'</script>");
+    ?>
 <html>
 	<head>
 		<title>Hackateca - Sua biblioteca universal</title>
@@ -69,9 +74,4 @@
 
 
 	</body>
-	<audio id="musica" hidden loop="true" Autoplay="true" src="0.mp3"></audio>
-    <?php
-    if($_COOKIE["hackatecaMusic"] == null) setcookie("hackatecaMusic","0",time()+999999999);
-    if($_COOKIE["hackatecaMusic"] != "0" && $_COOKIE["hackatecaMusic"] != null) echo("<script>document.getElementById('musica').src = '".$_COOKIE['hackatecaMusic'].".mp3'</script>");
-    ?>
 </html>
